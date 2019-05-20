@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1057952681869",
+    "firebase_url": "https://sasaktenun.firebaseio.com",
+    "project_id": "sasaktenun",
+    "storage_bucket": "sasaktenun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057952681869:android:d1ad0a4d22344d6b",
+        "android_client_info": {
+          "package_name": "com.project.sasaktenun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057952681869-v21b3vfufca3acu8fjt9ql9hc04oqao0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3UNxcsw-ng-G71HEkyi480NaErcK3H9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057952681869-v21b3vfufca3acu8fjt9ql9hc04oqao0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
