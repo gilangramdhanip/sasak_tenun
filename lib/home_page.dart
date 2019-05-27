@@ -15,16 +15,44 @@ class _HomePageState extends State<HomePage> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: new AppBar(
-        centerTitle: true,
-        title: Text("Sasak Tenun", style: TextStyle(
-          color: Colors.white,
-          fontFamily: 'Poppins',
-          fontWeight: FontWeight.w600,
-          fontSize: 25.0 ,
-        ),),
-      ),
+      // appBar: new AppBar(
+      //   centerTitle: true,
+      //   title: Text("Sasak Tenun", style: TextStyle(
+      //     color: Colors.white,
+      //     fontFamily: 'Poppins',
+      //     fontWeight: FontWeight.w600,
+      //     fontSize: 25.0 ,
+      //   ),),
+      //   actions: <Widget>[
+      //     Image.network("https://www.titintenun.com/wp-content/uploads/2019/04/3-1.jpeg"),
 
+      //   ],
+      // ),
+
+
+body: NestedScrollView(
+        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+          return <Widget>[
+            SliverAppBar(
+              expandedHeight: 250.0,
+              floating: false,
+              pinned: true,
+              flexibleSpace: FlexibleSpaceBar(
+                  centerTitle: true,
+                  title: Text("SASAK TENUN",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                        fontFamily: 'Poppins',
+                        fontWeight: FontWeight.bold,
+                      )),
+                  background: Image.network(
+                    "https://www.titintenun.com/wp-content/uploads/2019/04/3-1.jpeg",
+                    fit: BoxFit.cover,
+                  )),
+            ),
+          ];
+        },
       body:  Container(
         padding: EdgeInsets.only(top: 30.0),
             decoration: BoxDecoration(
@@ -72,7 +100,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
           ),
-          
+),   
     );
   }
 
