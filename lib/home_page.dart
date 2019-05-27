@@ -15,21 +15,6 @@ class _HomePageState extends State<HomePage> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: new AppBar(
-      //   centerTitle: true,
-      //   title: Text("Sasak Tenun", style: TextStyle(
-      //     color: Colors.white,
-      //     fontFamily: 'Poppins',
-      //     fontWeight: FontWeight.w600,
-      //     fontSize: 25.0 ,
-      //   ),),
-      //   actions: <Widget>[
-      //     Image.network("https://www.titintenun.com/wp-content/uploads/2019/04/3-1.jpeg"),
-
-      //   ],
-      // ),
-
-
 body: NestedScrollView(
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
@@ -47,7 +32,7 @@ body: NestedScrollView(
                         fontWeight: FontWeight.bold,
                       )),
                   background: Image.network(
-                    "https://www.titintenun.com/wp-content/uploads/2019/04/3-1.jpeg",
+                    "https://www.dhave.id/wp-content/uploads/2016/03/tenun-2.jpg?w=640",
                     fit: BoxFit.cover,
                   )),
             ),
@@ -157,7 +142,10 @@ Widget myGridItems(String gridName, String gridimage, int color, int color1){
               ),
             )
           ],
-        )
+        ),
+        Center(
+
+        ),
       ],
     ),
   );
