@@ -14,7 +14,6 @@ class _SplashPageState extends State<SplashPage> {
       seconds: 5,
       navigateAfterSeconds: LoginPage(),
       image: Image.asset("Images/SasakTenun.png"),
-      backgroundColor: Colors.white,
       photoSize: 100,
       loaderColor: Colors.blue[100],
       loadingText: Text("Harap Menunggu"),

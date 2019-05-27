@@ -40,20 +40,20 @@ body: NestedScrollView(
         },
       body:  Container(
         padding: EdgeInsets.only(top: 30.0),
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-              begin: Alignment.topRight,
-              end: Alignment.bottomLeft,
-               stops: [0.1, 0.5, 0.7, 0.9],
-          colors: [
-            // Colors are easy thanks to Flutter's Colors class.
-            Colors.blue[300],
-            Colors.blue[200],
-            Colors.blue[100],
-            Colors.blue[50],
-          ],
-              )
-            ),
+          //   decoration: BoxDecoration(
+          //     gradient: LinearGradient(
+          //     begin: Alignment.topRight,
+          //     end: Alignment.bottomLeft,
+          //      stops: [0.1, 0.5, 0.7, 0.9],
+          // colors: [
+          //   // Colors are easy thanks to Flutter's Colors class.
+          //   Colors.blue[300],
+          //   Colors.blue[200],
+          //   Colors.blue[100],
+          //   Colors.blue[50],
+          // ],
+          //     )
+          //   ),
         child: GridView.count(
         crossAxisCount: 1,
         padding: EdgeInsets.all(16.0),
